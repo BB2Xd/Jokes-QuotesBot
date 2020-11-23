@@ -6,4 +6,4 @@ A Telegram bot which Generates Random Jokes And as well as Quotes
 
 ## Deploying
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://github.com/Nimeshchandhra1/Jokes-QuotesBot)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Nimeshchandhra1/Jokes-QuotesBot)
