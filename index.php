@@ -48,7 +48,7 @@ bot('sendmessage', [
                 'chat_id' =>$chat_id,
                 'text' =>"***$START_MESSAGE
 
-Use /get To get quotes\n\nUse /joke to get jokes.***",
+Use /joke to get jokes.***",
 'parse_mode'=>"MarkDown",
 ]);
 if($text == '/joke'){
