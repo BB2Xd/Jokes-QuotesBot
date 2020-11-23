@@ -46,9 +46,7 @@ $START_MESSAGE = $_ENV['START_MESSAGE'];
 if($text == '/start')
 bot('sendmessage', [
                 'chat_id' =>$chat_id,
-                'text' =>"***$START_MESSAGE
-
-Use /joke to get jokes.***",
+                'text' =>"***$START_MESSAGE***",
 'parse_mode'=>"MarkDown",
 ]);
 if($text == '/joke'){
