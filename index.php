@@ -62,7 +62,7 @@ Catogery:- `$catg`
 _Type /joke for more_",
 'parse_mode'=>"MarkDown",
 ]);
-if($text == '/get'){
+}if($text == '/get'){
 
 $data = json_decode(file_get_contents("https://quotes.cwprojects.live/random"),true);
 $text = $data['text'];
@@ -84,4 +84,3 @@ bot('sendmessage', [
                 'chat_id' =>$chat_id,
                 'text' =>"$HELP_MENU"
 ]);
-}
